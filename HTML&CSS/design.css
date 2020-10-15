@@ -1,0 +1,112 @@
+h1 {
+color:blue;
+text-align: center;
+margin: 0cm;
+}
+p {
+    text-align: center;
+    margin: 0cm;
+}
+.container {
+    margin-top: 100px;
+}
+footer {
+    max-width: 200px;
+    background-color: floralwhite;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+html { 
+    background-color: rgb(119, 199, 166);
+    padding: 30px 50px;
+}
+body {
+    background-color: floralwhite;
+    padding: 20px 20px;
+}
+
+/*site navigation*/
+.site-nav ul{
+    margin: 40px;
+    padding:0;
+}
+.site-nav li{
+    border:2px solid green;
+    padding:10px 20px;
+    list-style: none;
+    float: left;
+    
+}
+
+.site-nav a:hover{
+    background-color:wheat;
+    padding: 10px 10px;
+}
+.site-nav a{
+    text-decoration: none;
+}
+
+/*form styles*/
+input[type="email"]{
+
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    margin-bottom: 10px;
+    width:30%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.all{
+    padding-left: 40px;
+}
+
+img{
+    padding-left: 0px;
+    margin-top: 10px;
+}
+
+/*table styles*/
+table th{
+    text-align: left;
+    background-color: rgb(108, 128, 108);
+    color:white
+    text shadow: 1px;
+    
+}
+
+table th,
+table td{
+    border: 1px solid black;
+    padding:10px;
+    text-align: center;
+
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:30%;
+}
+
+table tbody tr:nth-child(odd) td{
+    background-color: burlywood;
+}
+
+
+table tr:nth-child(1),
+table tr:nth-child(2),
+table tr:nth-child(3),
+table tr:nth-child(4){
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+
+
